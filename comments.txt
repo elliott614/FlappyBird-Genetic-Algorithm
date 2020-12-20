@@ -1,0 +1,12 @@
+Programming files: Bird.java, Game.java, GeneticAlgorithm.java*
+  *contains main method
+
+Data files required: none
+
+Outputs: output.txt, population.txt
+
+NEW VERSION:
+Changed to simple 1-point crossover, to make more properly "genetic" rather than allowing the winning
+parent's genes to remain unchanged until after the lowing parent's death score
+Changed mutate to mutate all genes/moves at the same probability, rather than higher probability of mutation
+of moves after death spot
